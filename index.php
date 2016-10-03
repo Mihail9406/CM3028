@@ -13,8 +13,8 @@
              <?php
 
              echo "Hello World";
-             echo "Hello" . "you fools" . "Good luck with getting a pass" . "!";
-             echo 5*10;
+             echo "<br>". "Hello" . "you fools" . "Good luck with getting a pass" . "!";
+             echo "<br>". 5*10;
              ?>
 
             </p>
