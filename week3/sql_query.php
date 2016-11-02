@@ -1,5 +1,6 @@
 <?php
 
+include("db_connect.php");
 $sql_query = "SELECT * FROM superheroes WHERE superpower LIKE '%laser%'";
 $result = $db->query($sd_query);
 
