@@ -18,6 +18,7 @@ $db = new mysqli(
 if($db->connect_errno){
     die('Connect failed['.$db->connect_errno.']');
 }
+?>
 /**
  * Created by PhpStorm.
  * User: User
