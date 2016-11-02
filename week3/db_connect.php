@@ -19,9 +19,3 @@ if($db->connect_errno){
     die('Connect failed['.$db->connect_errno.']');
 }
 ?>
-/**
- * Created by PhpStorm.
- * User: User
- * Date: 2.11.2016 г.
- * Time: 16:51
- */
