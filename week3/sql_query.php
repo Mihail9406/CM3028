@@ -6,6 +6,7 @@ $result = $db->query($sd_query);
 while($row = $result->fetch_array()){
     echno"<p>".$row['superheroName'].'</p>';
 }
+?>
 /**
  * Created by PhpStorm.
  * User: User
