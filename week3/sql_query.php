@@ -5,7 +5,7 @@ $sql_query = "SELECT * FROM superheroes WHERE superpower LIKE '%laser%'";
 $result = $db->query($sd_query);
 
 while($row = $result->fetch_array()){
-    echno"<p>".$row['superheroName'].'</p>';
+    echo"<p>".$row['superheroName'].'</p>';
 }
 ?>
 /**
