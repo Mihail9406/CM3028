@@ -1,7 +1,7 @@
 <?php
 
 include("db_connect.php");
-$sql_query = "SELECT * FROM superheroes WHERE superpower LIKE '%laser%'";
+$sql_query = "SELECT * FROM marvelmovies";
 $result = $db->query($sd_query);
 
 while($row = $result->fetch_array()){
