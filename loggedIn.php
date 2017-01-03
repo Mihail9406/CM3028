@@ -12,7 +12,7 @@ displayAccessLevelInformation($accesslevel);
 
 function displayaccessLevelInformation($accessLevel){
     if($accessLevel=="standardUser"){
-        echo "<p style = \"background-color: lightgreen\">You are currently logged in as a standard user</p>";
+        echo '<p style = \"background-color: lightgreen\">You are currently logged in as a standard user</p>';
     }
     elseif ($accessLevel=="root"){
         echo "<p<p style = \"background-color: red\">You are currently logged in as a root user</p>";
